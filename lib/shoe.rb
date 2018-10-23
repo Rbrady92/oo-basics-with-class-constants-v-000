@@ -13,10 +13,10 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def brnads
+  def BRANDS
     @brand = brand
     if !BRANDS.include?(brand)
       BRANDS << brand
     end
-  end 
+  end
 end
